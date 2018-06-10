@@ -1,0 +1,86 @@
+
+	body {
+        /* Background pattern */
+		background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+        background-color: mediumspringgreen;
+        background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+        background-repeat: repeat;
+		font-family: 'Dosis', sans-serif;
+		margin: 0px 50px 0px 50px;
+		}
+		
+	.nav-item, .nav-link {
+		font-size: 20pt;
+		font-family: 'Dosis', sans-serif;
+		color:rgb(250,255,253);
+		}
+		
+	.sidepanel {
+	    background: linear-gradient(to top right, rgb(74,145,154),rgb(91,89,65));
+	    opacity: 0.9;
+	    }
+	    
+	.btn {
+	    background-color: rgb(113,167,255);
+	    position: center;
+	    }
+	    
+	.button {
+	    background-color: rgb(113,167,255);
+	    border: none;
+	    color: rgb(250,255,253);
+	    padding: 5px;
+	    text-align: center;
+	    cursor: pointer;
+	    }
+	    
+	.rightpanel {
+	    background: rgb(250,255,253);
+	    opacity: 0.7;
+	    margin: 20px;
+	    }
+		
+	p, ul {
+		font-size: 20pt;
+		margin: 10px;
+		}
+	
+	h1 {
+		font-size: 45pt;
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: rgb(250,255,253);
+		}
+	
+	h2 {
+		font-size: 30pt;
+		}
+		
+	a {
+		font-size: 20pt;
+		}
+		
+	a:link {
+    	color: rgb(250,255,253); 
+    	background-color: transparent; 
+    	text-decoration: underline;
+		}
+
+	a:visited {
+    	color: rgb(30,82,106);
+    	background-color: transparent;
+    	text-decoration: underline;
+		}
+
+	a:hover {
+    	color: rgb(113,167,255);
+    	background-color: transparent;
+    	text-decoration: underline;
+		}
+
+	a:active {
+    	color: rgb(250,255,253);
+    	background-color: transparent;
+    	text-decoration: underline;
+		}
+
